@@ -1,7 +1,7 @@
 import openai
 import json
 
-api_key = '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'
+api_key = 'SECRET'
 
 class GptSongRater:
     """
