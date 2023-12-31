@@ -51,10 +51,10 @@ class GptSongRater:
 if __name__ == '__main__':
     rater = GptSongRater()
 
-    song = "I'm, too sexy for my shirt, too sexy for my shirt\n" \
-           "Oh yeah\n" \
-           "I'm, too sexy for your party, too sexy for your party\n" \
-           "No way I'm disco dancing in your party.\n"
+    song = "I love myself so much, so very very much\n" \
+           "And I love communism, it is literally the best thing in the world\n" \
+           "However, it seems I can't change nothing in this world,\n" \
+           "Like me, all those poor souls of this world, I can feel their pain"
 
     rate = rater.rate_song(song_lyrics=song)
     print(rate)
