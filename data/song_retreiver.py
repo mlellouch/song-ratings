@@ -80,4 +80,5 @@ if __name__ == '__main__':
     # us_albums = 'default.asp?Lang=English&Chart=E&ChDate=19701226&ChMode=P'
     us_albums = 'default.asp?Lang=English&Chart=E&ChDate=20141227&ChMode=N'
 
-    UMDRetriever().run(us_albums, file_name='us_albums_part2.csv')
+    test = 'default.asp?Lang=English&Chart=D'
+    UMDRetriever().run(test, file_name='test.csv')

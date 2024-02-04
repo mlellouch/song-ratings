@@ -25,7 +25,7 @@ class GptSongRater:
             messages=[
                 {
                     "role": "system",
-                    "content": "You are an intelligent psychologist, that is asked to label song lyrics, on the following criteria:\n"
+                    "content": ":You are an intelligent psychologist, that is asked to label song lyrics, on the following criteria\n"
                                "Agency - the capacity of an actor to act in a given environment,\n"
                                "Empathy - the ability to understand and share the feelings of another.\n"
                                "Collectivism - the practice or principle of giving a group priority over each individual in it.\n"
